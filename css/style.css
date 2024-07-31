@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 50, 50);
+
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: teal;
+}
+
+strong {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: thistle;
+    min-height: 200px;
+    margin-bottom: 50px;
+    padding: 32px;
+}
+
+.icon-redes {
+    width: 64px;
+    height: auto;
+}
