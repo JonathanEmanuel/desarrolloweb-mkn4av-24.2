@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1, h2, h3, p {
+    color: #292a2a;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 400;
+}
+
+header {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #48D986;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 10px #292a2a83;
+}
+
+.menu-principal {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    padding-right: 16px;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+
+}
+
+.menu-principal li .menu-item:hover {
+    background-color: #062326;
+
+}
+
+.sub-menu {
+    list-style: none;
+    background-color: #48D986;
+    position: absolute;
+    top:28px;
+    padding: 0px;
+    display: none;
+    box-shadow: 0px 2px 10px #292a2a83;
+
+}
+
+.sub-menu li {
+    display: flex;
+    padding: 10px;
+    height: 35px;
+    width: 200px;
+}
+
+.sub-menu li:hover {
+    background-color: #062326;
+
+}
+
+.relative {
+    position: relative;
+}
+
+.relative:hover .sub-menu {
+    display: block;
+}
+main {
+    background-color: bisque;
+    padding: 16px;
+}
+
+section {
+    padding: 32px;
+    min-height: 500px;
+}
+
+.chat {
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+}
+
+footer {
+    background-color: #062326;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+footer .redes {
+    color: white;
+    padding-left: 36px;
+    width: 130px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.redes li a {
+    color: white;
+    text-decoration: none;
+}
+
+.redes li a:hover {
+    text-decoration: underline;
+}
