@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+h1, h2, h3, p {
+    color: #292a2a;
+}
+
+h1 {
+    font-weight: 400;
+    transition: all ease-in-out 0.5s;
+}
+
+h1:hover {
+    transform: scale(1.2);
+}
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 90vw;
+    min-height: 70vh;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main.main-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+nav {
+    background-color: #48D986;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 10px #292a2a83;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+nav ul li {
+    transition: all 2s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px slateblue  solid;
+
+}
+footer {
+    background-color: #062326;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer p {
+    color: white;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border: 2px solid #292a2a;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+/* Transformaciones */
+.translate:hover {
+    transform: translate(50px, -45px);
+}
+
+.rotate:hover {
+    transform: rotate(60deg);
+}
+
+.rotate-x:hover {
+    transform: rotateX(50deg);
+}
+
+.rotate-y:hover {
+    transform: rotateY(50deg);
+}
+
+.scale:hover {
+    transform: scale(2, 2);
+}
+
+.skew:hover{
+    transform: skew(10deg, 30deg)
+}
+
+.skew-x:hover{
+    transform: skewX(20deg)
+}
+
+
+.skew-y:hover{
+    transform: skewY(20deg)
+}
+
+.circle:hover {
+    background-color: slateblue;
+    border-radius: 50%;
+    transform: scale(2);
+}
+
+.circle:hover p {
+    color: white;
+
+}
+
+.form-buscar {
+    padding: 8px;
+    width: 50px;
+    border-radius: 5px;
+    transition: width 1.2s, padding 2s;
+}
+
+.form-buscar:focus {
+    width: 400px;
+    padding: 10px;
+}
