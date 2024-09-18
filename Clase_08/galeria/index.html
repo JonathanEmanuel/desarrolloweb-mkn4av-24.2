@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="libs/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="libs/glightbox/css/glightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Galería de Fotos</h1>
+    </header>
+    <main>
+        <a href="images/foto_1.jpg" data-lightbox="roadtrip" data-title="Foto 1">
+            <img src="images/foto_1_s.jpg" alt="">
+        </a>
+
+        <a href="images/foto_2.jpg" data-lightbox="roadtrip" data-title="Foto 2">
+            <img src="images/foto_2_s.jpg" alt="">
+        </a>
+
+        <a href="images/foto_4.jpg" data-lightbox="roadtrip" data-title="Foto 2">
+            <img src="images/foto_4_s.jpg" alt="">
+        </a>
+
+
+        <a href="images/foto_4.jpg" class="glightbox">
+            <img src="images/foto_4_s.jpg" alt="Foto 4" />
+        </a>
+
+        <!-- Simple Description -->
+        <a href="images/foto_4.jpg" class="glightbox4" data-glightbox="title: Foto Principal; description: Descripción de la foto principal de la página web......">
+            <img src="images/foto_4_s.jpg" alt="image" />
+        </a>
+
+        <a href="images/foto_1.jpg" class="glightbox">
+            <img src="images/foto_1_s.jpg" alt="Foto 4" />
+        </a>
+          
+        <a href="images/foto_2.jpg" class="glightbox">
+            <img src="images/foto_2_s.jpg" alt="Foto 4" />
+        </a> 
+    </main>
+    <footer>
+        <p> ISEC  Desarrollo Web | 2024</p>
+    </footer>
+    <script src="libs/glightbox/js/glightbox.min.js"></script>
+    <script src="libs/lightbox/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true
+        })
+    </script>
+
+    <script type="text/javascript">
+        const lightbox = GLightbox();
+
+        var lightboxInlineIframe = GLightbox({
+                selector: '.glightbox4'
+            });
+    </script>
+</body>
+</html>
