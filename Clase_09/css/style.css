@@ -1,0 +1,20 @@
+header {
+    height: 20vh;
+    background-color: #45BF92;
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: #0D0D0D;
+    color: white;
+}
+
+
+.img-promo {
+    width: 128px;
+}
+
