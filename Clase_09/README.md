@@ -13,6 +13,6 @@
 - Tipografías y textos
 - Títulos, párrafos y alineación de textos
 - Botones
-- Alertas
-- Barras de progreso
+- Alertas ?
+- Barras de progreso ?
 - Imágenes responsive
