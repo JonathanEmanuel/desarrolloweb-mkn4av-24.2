@@ -5,10 +5,8 @@
 
 📌 **Componentes Básicos** 
 - Botones
-- Alertas
 - Cards
 - Formularios
 
 📌 **Componentes con JavaScript** 
 - Carrusel
-- Desplegables
