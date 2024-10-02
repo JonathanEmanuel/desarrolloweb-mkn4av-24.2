@@ -12,3 +12,4 @@
 - Carrusel
 
 
+![Captura de pantalla](images/captura.png)
