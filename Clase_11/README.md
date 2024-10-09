@@ -4,7 +4,7 @@
 
 
 
-📌 **Componentes con JavaScript** 
+📌 **Componentes parte II** 
 - Menú de navegación
 - Anclas
 - Ventanas modales
